@@ -1,8 +1,26 @@
 aid: swiss-education-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swiss-education-group.png
 name: Swiss Education Group
-description: 'Swiss Education Group is a company surfaced as a portfolio company of idg-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Swiss Education Group (SEG) is a Montreux-based alliance of internationally
+  celebrated hospitality, business, and culinary arts schools in Switzerland, comprising
+  Cesar Ritz Colleges, Culinary Arts Academy Switzerland, Swiss Hotel Management School,
+  and HIM Business School. Across five campuses it educates more than 6,000 students
+  from over 110 nationalities in hospitality management, culinary arts, and business.
+  It was surfaced as a portfolio company of idg-capital and added to the API Evangelist
+  network for enrichment. As of this pass SEG publishes no public developer portal,
+  API documentation, SDKs, or machine-readable API surface; this profile is maintained
+  as a company/identity record rather than an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/swiss-education-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Education
+- Hospitality
+- Hotel Management
+- Culinary Arts
+- Switzerland
 apis: []
+common:
+- type: Website
+  url: https://www.swisseducation.com/en/
+- type: PrivacyPolicy
+  url: https://www.swisseducation.com/en/privacy-policy/
+- type: Blog
+  url: https://www.swisseducation.com/en/news/
+- type: DomainSecurity
+  url: security/swiss-education-group-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
